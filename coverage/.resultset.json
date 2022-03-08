@@ -95,7 +95,7 @@
           1,
           1,
           1,
-          26,
+          27,
           1,
           null
         ]
@@ -438,6 +438,23 @@
           null
         ]
       },
+      "/Users/richieturing/Turing/mod3/projects/sweater_weather/spec/services/bored_service_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/richieturing/Turing/mod3/projects/sweater_weather/spec/services/map_service_spec.rb": {
         "lines": [
           1,
@@ -738,8 +755,31 @@
           1,
           null
         ]
+      },
+      "/Users/richieturing/Turing/mod3/projects/sweater_weather/app/services/bored_service.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1646731484
+    "timestamp": 1646756812
   }
 }
