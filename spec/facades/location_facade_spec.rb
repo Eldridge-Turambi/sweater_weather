@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe LocationFacade do
-  it 'makes location porors' do
+  it 'makes location porors', :vcr do
     location = LocationFacade.find_coordinates('denver')
 
     expect(location).to be_an_instance_of(Location)

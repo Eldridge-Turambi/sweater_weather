@@ -1,6 +1,10 @@
 class WeatherFacade
   class << self
 
+    def forecast(location)
+      Forecast.new(current_weather(location), daily_weather(location), hourly_weather(location))
+    end
+
     def current_weather(location)
       coordinates = LocationFacade.find_coordinates(location)
       weather_data = WeatherService.get_forecast_details(coordinates)
