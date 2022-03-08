@@ -18,5 +18,4 @@ class WeatherService
       parse_json(response)
     end
   end 
-
 end
