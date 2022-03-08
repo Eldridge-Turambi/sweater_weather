@@ -17,5 +17,6 @@ RSpec.describe 'weather api' do
     expect(response).to be_successful
     expect(response.status).to eq(200)
     expect(json).to be_a(Hash)
+    ##Add sad path testing
   end
 end
